@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\States">
+      <UniqueIdentifier>{c39ba8bd-5408-4d8b-b355-2e169df37007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GUI">
+      <UniqueIdentifier>{3ca35a6a-83cb-4b42-b3aa-d82a379d1a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\TileMap">
+      <UniqueIdentifier>{29c96b4e-a763-475b-b586-9a39b9e7ab69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Turret">
+      <UniqueIdentifier>{83cbefd9-2069-41bb-8181-43dd01abae08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Player">
+      <UniqueIdentifier>{f15be43a-93ab-4436-8455-089c42091800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Enemy">
+      <UniqueIdentifier>{489597b8-18f2-49a7-bb66-2a3a97c37651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\SaveSystem">
+      <UniqueIdentifier>{fe8f80c9-7f10-47b5-a22e-3690dc7ae6f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Fichiers sources\States</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>Fichiers sources\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui.cpp">
+      <Filter>Fichiers sources\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Fichiers sources\States</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.cpp">
+      <Filter>Fichiers sources\TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Fichiers sources\TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="TurretPanel.cpp">
+      <Filter>Fichiers sources\Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="TurretManager.cpp">
+      <Filter>Fichiers sources\Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="Turret.cpp">
+      <Filter>Fichiers sources\Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Fichiers sources\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerData.cpp">
+      <Filter>Fichiers sources\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="TurretShop.cpp">
+      <Filter>Fichiers sources\Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Fichiers sources\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Fichiers sources\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerGUI.cpp">
+      <Filter>Fichiers sources\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EndState.cpp">
+      <Filter>Fichiers sources\States</Filter>
+    </ClCompile>
+    <ClCompile Include="saveSystem.cpp">
+      <Filter>Fichiers sources\SaveSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Fichiers sources</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Fichiers sources\States</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>Fichiers sources\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui.h">
+      <Filter>Fichiers sources\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Fichiers sources\States</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.h">
+      <Filter>Fichiers sources\TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Fichiers sources\TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="TurretPanel.h">
+      <Filter>Fichiers sources\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="TurretManager.h">
+      <Filter>Fichiers sources\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="Turret.h">
+      <Filter>Fichiers sources\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Fichiers sources\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerData.h">
+      <Filter>Fichiers sources\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="TurretShop.h">
+      <Filter>Fichiers sources\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="TurretData.h">
+      <Filter>Fichiers sources\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="TurretType.h">
+      <Filter>Fichiers sources\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Fichiers sources\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Fichiers sources\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyData.h">
+      <Filter>Fichiers sources\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyType.h">
+      <Filter>Fichiers sources\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerGUI.h">
+      <Filter>Fichiers sources\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="EndState.h">
+      <Filter>Fichiers sources\States</Filter>
+    </ClInclude>
+    <ClInclude Include="saveSystem.h">
+      <Filter>Fichiers sources\SaveSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TowerDefense.rc">
+      <Filter>Fichiers de ressources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Icon\icon.png">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="..\x64\Release\Icon\icon.ico">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
