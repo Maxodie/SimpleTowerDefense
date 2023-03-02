@@ -23,7 +23,7 @@ public:
 
 	void setActiveSelectedPos(bool state);
 	void changePosition(const sf::Vector2f selectedPos);
-	void ChangeMode(bool isBuyMode);
+	void changeMode(bool isBuyMode);
 	bool getIsBuyMode();
 	TurretData* getSelectedTurretData();
 

@@ -45,6 +45,7 @@ void TurretShop::deleteTurret() {
 		playerData->addMoney(turretManager->getSelectedTurretData()->sellPrice);
 		turretManager->deleteSelectedTurret();
 		turretPanel->updateTexts();
+		turretManager->changeMode(false);
 	}
 }
 

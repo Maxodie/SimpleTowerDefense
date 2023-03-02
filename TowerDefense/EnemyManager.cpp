@@ -120,7 +120,6 @@ void EnemyManager::spawnEnemy(const EnemyType type) {
 void EnemyManager::spawner() {
 	if (maxEnemiesNumber < spawnableEnemies.size() && increaseEnemiesNumberClock.getElapsedTime().asSeconds() >= increaseEnemiesNumberTime) {
 		increaseEnemiesNumberClock.restart();
-		increaseEnemiesNumberTime *= 2;
 		maxEnemiesNumber += 1;
 	}
 

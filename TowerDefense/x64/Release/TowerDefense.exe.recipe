@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>E:\C++\Jeux\TowerDefense\x64\Release\TowerDefense.exe</FullPath>
+      <FullPath>E:\C++\Jeux\SimpleTowerDefense\x64\Release\TowerDefense.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

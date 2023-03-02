@@ -63,15 +63,15 @@ void TurretManager::changePosition(const sf::Vector2f selectedPos) {
 
 	if (selectTurret()) {
 		rectangleSelectedPos->setFillColor(sf::Color(156, 67, 67, 200));
-		ChangeMode(true);
+		changeMode(true);
 	}
 	else {
 		rectangleSelectedPos->setFillColor(sf::Color(67, 148, 156, 200));
-		ChangeMode(false);
+		changeMode(false);
 	}
 }
 
-void TurretManager::ChangeMode(bool isDeleteMode) {
+void TurretManager::changeMode(bool isDeleteMode) {
 	this->isDeleteMode = isDeleteMode;
 	if (isDeleteMode) {
 		deleteOrBuyButton->setText("Sell for: " + std::to_string((int)selectedTurret->turret->getTurretData()->sellPrice));
